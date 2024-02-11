@@ -1,0 +1,58 @@
+{
+  "vendor_name": "LS CABLE AND SYSTEM LTD SINGAPORE",
+  "contract_no": "9240026",
+  "lis": [
+    {
+      "material_code": "101642",
+      "li_code": "9240026/keystone/LI",
+      "li_number": "10",
+      "description": "CABLE 22KV 3C 300MM2 CU/XLPE/DSTA/PVC",
+      "batches": [
+        {
+          "batch_no": "1/10",
+          "total_qty": 5500,
+          "submission_date": "15-01-2023",
+          "approval_date": "15-01-2023",
+          "status": "AVAILABLE",
+          "drum_sizes": [
+            {
+              "drum_size": 250,
+              "quantity": 2500,
+              "unapproved_quantity": 0,
+              "available_quantity": 2500,
+              "available_drum_numbers": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+              "buffer_quantity": 0,
+              "buffer_drum_numbers": [],
+              "test_quantity": 2.5,
+              "test_drum_numbers": [{"number": 10,"quantity": 2.5}],
+              "short_quantity": 247.5,
+              "short_drum_numbers": [{"number": 10,"quantity": 247.5}]
+            },
+            {
+              "drum_size": 300,
+              "quantity": 3000,
+              "unapproved_quantity": 3000,
+              "available_quantity": 0,
+              "available_drum_numbers": [],
+              "buffer_quantity": 0,
+              "buffer_drum_numbers": [],
+              "test_quantity": 0,
+              "test_drum_numbers": [],
+              "short_quantity": 0,
+              "short_drum_numbers": []
+            }
+          ],
+          "batch_test_approvals": [
+            {
+              "approval_date": "15-01-2023",
+              "test_drum_numbers": [{"drum_size": 250,"drum_numbers": [{"number": 10,"quantity": 2.5}]}],
+              "approval_drum_numbers": [{"drum_size": 250, "drum_numbers": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}],
+              "status": "APPROVED",
+              "approval_comment": "Historical data, added on go-live migration"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "contracts": [
+    {
+      "contract_no": "9190369",
+      "lis": [
+        {
+          "material_code": "101642",
+          "li_code": "Li",
+          "li_number": "1",
+          "description": "22kV 3C/300mm2 CU/XLPE/DSTA/PVC Cable",
+          "batches": [
+            {
+              "batch_no": "6/11",
+              "total_quantity": 600,
+              "submission_date": "27-03-2025",
+              "drum_partition": [
+                {
+                  "drum_size": 300,
+                  "quantity": 600,
+                  "unapproved_quantity": 600,
+                  "available_quantity": 0,
+                  "available_drum_numbers": [],
+                  "buffer_quantity": 0,
+                  "buffer_drum_numbers": [],
+                  "test_quantity": 0,
+                  "test_drum_numbers": [],
+                  "short_quantity": 0,
+                  "short_drum_numbers": []
+                }
+              ],
+              "batch_test_approvals": [],
+              "remarks": "",
+              "status": "DOC_PENDING_UPLOAD"
+            }
+          ],
+          "hos_approval_date": "27-03-2021",
+          "status": "VENDOR_ACKNOWLEDGED"
+        }
+      ]
+    }
+  ]
+}
