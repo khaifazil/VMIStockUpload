@@ -728,6 +728,10 @@ func processRows(rows []CSVRow) (UploadInventoryInput, []Error) {
 					var updatedDrumPartitions []DrumPartition
 					for _, drumPartition := range dpMap {
 						updatedDrumPartitions = append(updatedDrumPartitions, drumPartition)
+						// sort drum partitions by drum size
+						sort.Slice(updatedDrumPartitions, func(i, j int) bool {
+							return updatedDrumPartitions[i].DrumSize < updatedDrumPartitions[j].DrumSize
+						})
 					}
 					batch.DrumPartitions = updatedDrumPartitions
 
@@ -735,6 +739,10 @@ func processRows(rows []CSVRow) (UploadInventoryInput, []Error) {
 					var updatedBatchTestApprovals []BatchTestApproval
 					for _, batchTestApproval := range btaMap {
 						updatedBatchTestApprovals = append(updatedBatchTestApprovals, batchTestApproval)
+						// sort batch test approvals by approval date
+						sort.Slice(updatedBatchTestApprovals, func(i, j int) bool {
+							return updatedBatchTestApprovals[i].ApprovalDate < updatedBatchTestApprovals[j].ApprovalDate
+						})
 					}
 					batch.BatchTestApprovals = updatedBatchTestApprovals
 
@@ -866,7 +874,7 @@ func createNewBatch(row CSVRow, rowIndex int) (Batch, []Error) {
 	// if batch test approval date is empty, skip creating a new batch test approval and set the batch test status to "DOCS_PENDING_UPLOAD"
 	if row.BatchTestReportDate == "" {
 		newBatch.BatchTestApprovals = []BatchTestApproval{}
-		newBatch.Status = "DOC_PENDING_UPLOAD"
+		newBatch.Status = "DOCS_PENDING_UPLOAD"
 		newBatch.DrumPartitions = append(newBatch.DrumPartitions, newDrumPartition)
 		return newBatch, errors
 	}

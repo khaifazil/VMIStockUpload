@@ -11,26 +11,141 @@
           "batches": [
             {
               "batch_no": "6/11",
-              "total_quantity": 600,
+              "total_quantity": 750,
               "submission_date": "27-03-2025",
               "drum_partition": [
                 {
-                  "drum_size": 300,
-                  "quantity": 600,
-                  "unapproved_quantity": 600,
-                  "available_quantity": 0,
-                  "available_drum_numbers": [],
-                  "buffer_quantity": 0,
-                  "buffer_drum_numbers": [],
-                  "test_quantity": 0,
-                  "test_drum_numbers": [],
-                  "short_quantity": 0,
-                  "short_drum_numbers": []
+                  "drum_size": 250,
+                  "quantity": 750,
+                  "unapproved_quantity": 0,
+                  "available_quantity": 250,
+                  "available_drum_numbers": [
+                    3
+                  ],
+                  "buffer_quantity": 250,
+                  "buffer_drum_numbers": [
+                    5
+                  ],
+                  "test_quantity": 2.5,
+                  "test_drum_numbers": [
+                    {
+                      "number": 4,
+                      "quantity": 2.5
+                    }
+                  ],
+                  "short_quantity": 247.5,
+                  "short_drum_numbers": [
+                    {
+                      "number": 4,
+                      "quantity": 247.5
+                    }
+                  ]
                 }
               ],
-              "batch_test_approvals": [],
-              "remarks": "",
-              "status": "DOC_PENDING_UPLOAD"
+              "batch_test_approvals": [
+                {
+                  "approval_date": "30-12-2024",
+                  "test_drum_numbers": [
+                    {
+                      "drum_size": 250,
+                      "drum_numbers": [
+                        {
+                          "number": 4,
+                          "quantity": 2.5
+                        }
+                      ]
+                    }
+                  ],
+                  "approval_drum_numbers": [
+                    {
+                      "drum_size": 250,
+                      "drum_numbers": [
+                        3,
+                        4,
+                        5
+                      ]
+                    }
+                  ],
+                  "status": "APPROVED",
+                  "approval_comment": "Batch Test report uploaded on Go-live phase 1"
+                }
+              ],
+              "remarks": "Partial",
+              "status": "PARTIAL_BUFFER"
+            }
+          ],
+          "hos_approval_date": "27-03-2021",
+          "status": "VENDOR_ACKNOWLEDGED"
+        },
+        {
+          "material_code": "101643",
+          "li_code": "Li",
+          "li_number": "2",
+          "description": "22kV 3C/300mm2 CU/XLPE/DSTA/PVC Cable",
+          "batches": [
+            {
+              "batch_no": "6/11",
+              "total_quantity": 750,
+              "submission_date": "27-03-2025",
+              "drum_partition": [
+                {
+                  "drum_size": 250,
+                  "quantity": 750,
+                  "unapproved_quantity": 0,
+                  "available_quantity": 250,
+                  "available_drum_numbers": [
+                    3
+                  ],
+                  "buffer_quantity": 250,
+                  "buffer_drum_numbers": [
+                    5
+                  ],
+                  "test_quantity": 2.5,
+                  "test_drum_numbers": [
+                    {
+                      "number": 4,
+                      "quantity": 2.5
+                    }
+                  ],
+                  "short_quantity": 247.5,
+                  "short_drum_numbers": [
+                    {
+                      "number": 4,
+                      "quantity": 247.5
+                    }
+                  ]
+                }
+              ],
+              "batch_test_approvals": [
+                {
+                  "approval_date": "30-12-2024",
+                  "test_drum_numbers": [
+                    {
+                      "drum_size": 250,
+                      "drum_numbers": [
+                        {
+                          "number": 4,
+                          "quantity": 2.5
+                        }
+                      ]
+                    }
+                  ],
+                  "approval_drum_numbers": [
+                    {
+                      "drum_size": 250,
+                      "drum_numbers": [
+                        3,
+                        4,
+                        5
+                      ]
+                    }
+                  ],
+                  "status": "APPROVED",
+                  "approval_comment": "Batch Test report uploaded on Go-live phase 1"
+                }
+              ],
+              "remarks": "Partial",
+              "status": "PARTIAL_BUFFER"
             }
           ],
           "hos_approval_date": "27-03-2021",

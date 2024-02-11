@@ -1,3 +1,3 @@
 Vendor,Material ,Description,Contract,PO Number,PO line item,Li No,LI Date,Batch No.,Batch Due date,Drum Size,Total nos. of Drum,Available Drum Nos.,Available Full Drums,Full  Drum Total Quantity,Buffer Drum No.,Buffer  No. of Drum ,Buffer Quantity,Sample Drum (Yes/No),Sample Drum No.,Sample Length (m),No of Short length Drums,Short Length total Quantity,Batch Test Report Date,Remarks ,Batch Test Report File Name
 ABC,101642,22kV 3C/300mm2 CU/XLPE/DSTA/PVC Cable,9190369,,,Li - 1,27-03-2021,6/11,27-03-2025,250,3,3,1,250,5,1,250,yes,4,2.5,1,247.5,30-12-2024,Partial,Test_report_B.pdf
-ABC,101642,22kV 3C/300mm2 CU/XLPE/DSTA/PVC Cable,9190369,,,Li - 1,27-03-2021,6/11,27-03-2025,300,2,,0,0,,0,0,,,0,0,0,,,
+ABC,101643,22kV 3C/300mm2 CU/XLPE/DSTA/PVC Cable,9190369,,,Li - 2,27-03-2021,6/11,27-03-2025,250,3,3,1,250,5,1,250,yes,4,2.5,1,247.5,30-12-2024,Partial,Test_report_B.pdf
